@@ -1,0 +1,8 @@
+name: Current Weather
+type: module
+package: custom
+description: Custom module for showing current weather
+machine_name: current_weather
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:block

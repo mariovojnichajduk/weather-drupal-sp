@@ -1,0 +1,4 @@
+services:
+  current_weather.api_client:
+    class: Drupal\current_weather\Service\WeatherApiClient
+    arguments: ['@http_client', '@logger.channel.default']
